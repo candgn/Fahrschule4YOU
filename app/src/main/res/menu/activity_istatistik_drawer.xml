@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+
+        <item android:title="Profil">
+            <menu >
+                <item
+                    android:id="@+id/bilgilerim"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="Bilgilerim" />
+                <item
+                    android:id="@+id/istatistikler"
+                    android:icon="@drawable/ic_show_chart_black_24dp"
+                    android:title="İstatistikler" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Kendinizi Deneyin!">
+        <menu>
+            <item
+                android:id="@+id/test1"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="Kategoriler" />
+            <item
+                android:id="@+id/test2"
+                android:icon="@drawable/ic_content_paste_black_24dp"
+                android:title="Sınav" />
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/iletisim"
+        android:icon="@drawable/ic_contact_phone_black_24dp"
+        android:title="İletişim"
+        />
+    <item
+        android:id="@+id/cikis"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Çıkış Yap"
+        />
+
+</menu>

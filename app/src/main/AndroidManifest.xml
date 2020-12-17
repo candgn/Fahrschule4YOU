@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projekt.fahrschule4you">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".FullScreenVideo"></activity>
+        <activity
+            android:name=".IsaretliSorular"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HazirlikIstatistik" />
+        <activity
+            android:name=".KategoriYanlisSorular" />
+        <activity
+            android:name=".İletisim"
+            android:label="@string/title_activity_iletisim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".İstatistik"
+            android:label="@string/title_activity_istatistik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HazirlikEskiSoru" />
+        <activity
+            android:name=".KategoriSoruEski"/>
+        <activity
+            android:name=".Hazirlik"
+            android:label="@string/title_activity_hazirlik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EskiTestler" />
+        <activity
+            android:name=".SifremiDegistir" />
+        <activity
+            android:name=".KategoriSoru"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".HazirlikSoru" />
+        <activity
+            android:name=".HazirTestDetay"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".KategoriDetay" />
+        <activity
+            android:name=".Kategoriler"
+            android:label="@string/title_activity_kategoriler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profil"
+            android:label="@string/title_activity_profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SifremiUnuttum" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

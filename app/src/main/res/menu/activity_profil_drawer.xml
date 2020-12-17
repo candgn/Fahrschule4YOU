@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+
+        <item android:id="@+id/profil" android:title="@string/profil_de">
+            <menu >
+                <item
+                    android:id="@+id/bilgilerim"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="@string/bilgilerim_de" />
+                <item
+                    android:id="@+id/istatistikler"
+                    android:icon="@drawable/ic_show_chart_black_24dp"
+                    android:title="@string/istatistikler_de" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:id="@+id/dene" android:title="@string/kendinizi_deneyin_de">
+        <menu>
+            <item
+                android:id="@+id/test1"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="@string/kategoriler_de" />
+
+            <item
+            android:id="@+id/test2"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="@string/sinav_de"
+                android:visible="false"/>
+            <item
+                android:id="@+id/test3"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="isaretli sorular" />
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/iletisim"
+        android:icon="@drawable/ic_contact_phone_black_24dp"
+        android:title="@string/letisim_de"
+        />
+    <item
+        android:id="@+id/cikis"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/cikis_yap_de"
+        />
+
+</menu>

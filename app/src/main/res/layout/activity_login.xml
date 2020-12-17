@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/background"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:id="@+id/prgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/siyah_transp_buton"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:visibility="gone">
+
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:elevation="30dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/beyaz_kutucuk"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/logo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrschule 4YOU"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/beyaz_kutucuk"
+            android:ems="10"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/black"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/sifre_de"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/black"
+            android:background="@drawable/beyaz_kutucuk"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:text="@string/beni_hatirla_de"
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/giris_de"
+                android:background="@drawable/siyah_kutucuk"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sifremi_unuttum_de"
+            android:textColor="@android:color/holo_red_light"
+            android:onClick="sifre_unuttum"
+            android:layout_marginBottom="100dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

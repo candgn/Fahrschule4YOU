@@ -1,0 +1,241 @@
+<resources>
+
+    <string name="app_name">Fahrschule 4YOU</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kategoriler">Kategoriler</string>
+    <string name="title_activity_hazirlik">Sınav</string>
+    <string name="title_activity_istatistik">İstatistik</string>
+    <string name="title_activity_iletisim">İletisim</string>
+    <string name="ifremi_de_i_tirmek_istiyorum_de">Ich möchte mein Passwort ändern!</string>
+    <string name="ifremi_de_i_tirmek_istiyorum_tr">Şifremi Değiştirmek istiyorum!</string>
+    <string name="ifremi_de_i_tirmek_istiyorum_en">I want to change my password!</string>
+    <string name="dogru_tr">Doğru: </string>
+    <string name="dogru_de">Richtig: </string>
+    <string name="dogru_en">True: </string>
+    <string name="yanlis_tr">Yanlış: </string>
+    <string name="yanlis_en">False: </string>
+    <string name="yanlis_de">Falsch: </string>
+    <string name="bos_tr">Boş: </string>
+    <string name="bos_de">Leer: </string>
+    <string name="bos_en">Empty: </string>
+    <string name="toplam_soru_tr">Toplam: </string>
+    <string name="toplam_soru_de">Total: </string>
+    <string name="toplam_soru_en">Total: </string>
+    <string name="sinav_de">Prüfung</string>
+    <string name="sinav_tr">Sınav</string>
+    <string name="sinav_en">Exam</string>
+    <string name="bu_b_l_mde_kursumuz_taraf_ndan_haz_rlanan_test_ile_kendinizi_geli_tirebilirsiniz_de">In diesem Abschnitt können Sie sich mit dem von unserem Kurs vorbereiteten Test verbessern!</string>
+    <string name="bu_b_l_mde_kursumuz_taraf_ndan_haz_rlanan_test_ile_kendinizi_geli_tirebilirsiniz_tr">Bu bölümde kursumuz tarafından hazırlanan test ile kendinizi geliştirebilirsiniz!</string>
+    <string name="bu_b_l_mde_kursumuz_taraf_ndan_haz_rlanan_test_ile_kendinizi_geli_tirebilirsiniz_en">In this section, you can improve yourself with the test prepared by our course!</string>
+    <string name="e_itime_ba_la_butonuna_t_klayarak_sizin_i_in_haz_rlad_m_z_testin_detaylar_n_g_rebilir_ve_soru_zmeye_ba_layabilirsiniz_de">Sie können die Details des Tests anzeigen, den wir für Sie vorbereitet haben, indem Sie auf die Schaltfläche Training starten klicken und Fragen lösen.</string>
+    <string name="e_itime_ba_la_butonuna_t_klayarak_sizin_i_in_haz_rlad_m_z_testin_detaylar_n_g_rebilir_ve_soru_zmeye_ba_layabilirsiniz_tr">Eğitime başla butonuna tıklayarak sizin için hazırladığımız testin detaylarını görebilir ve soru çözmeye başlayabilirsiniz.</string>
+    <string name="e_itime_ba_la_butonuna_t_klayarak_sizin_i_in_haz_rlad_m_z_testin_detaylar_n_g_rebilir_ve_soru_zmeye_ba_layabilirsiniz_en">You can see the details of the test we prepared for you by clicking on the start training button and start solving questions.</string>
+    <string name="egitime_basla_de">Starten Sie das Training</string>
+    <string name="egitime_basla_tr">Eğitime Başla</string>
+    <string name="egitime_basla_en">Start Training</string>
+    <string name="eski_cozdugun_testleri_gozden_gecir_de">Überprüfen Sie Ihre alten gelösten Tests</string>
+    <string name="eski_cozdugun_testleri_gozden_gecir_tr">Eski Çözdüğün Testleri Gözden Geçir</string>
+    <string name="eski_cozdugun_testleri_gozden_gecir_en">Review Your Old Solved Tests</string>
+    <string name="cevapla_tr">Cevapla</string>
+    <string name="cevapla_de">Antworten</string>
+    <string name="cevapla_en">Answer</string>
+    <string name="basari_orani_de">Erfolgs Rate: </string>
+    <string name="basari_orani_tr">Başarı Oranı: </string>
+    <string name="basari_orani_en">Success Rate: </string>
+    <string name="sorular_gozden_gecir_de">Überprüfen Sie die Fragen</string>
+    <string name="sorular_gozden_gecir_tr">Soruları gözden geçir</string>
+    <string name="sorular_gozden_gecir_en">Review questions</string>
+    <string name="sinav_icerigi_de">Prüfungsinhalt:</string>
+    <string name="sinav_icerigi_tr">Sınav içeriği:</string>
+    <string name="sinav_icerigi_en">Exam content:</string>
+    <string name="hemen_coz_de">Jetzt auflösen</string>
+    <string name="hemen_coz_tr">Hemen Çöz</string>
+    <string name="hemen_coz_en">Solve Now</string>
+    <string name="toplam_cozulen_soru_de">Insgesamt gelöste Frage:</string>
+    <string name="toplam_cozulen_soru_tr">Toplam Çözülen Soru:</string>
+    <string name="toplam_cozulen_soru_en">Total Solved Question:</string>
+    <string name="yanlis_sorular_tekrar_coz_tr">Yanlış Soruları tekrar çöz</string>
+    <string name="yanlis_sorular_tekrar_coz_de">Lösen Sie falsche Fragen</string>
+    <string name="yanlis_sorular_tekrar_coz_en">Resolve Wrong Questions</string>
+    <string name="istatistikleri_sifirla_de">Statistiken zurücksetzen</string>
+    <string name="istatistikleri_sifirla_tr">İstatistikleri sıfırla</string>
+    <string name="istatistikleri_sifirla_en">Reset statistics</string>
+    <string name="kategorideki_toplam_soru_sayisi_de">Gesamtzahl der Fragen in der Kategorie: </string>
+    <string name="kategorideki_toplam_soru_sayisi_tr">Kategorideki toplam soru sayısı: </string>
+    <string name="kategorideki_toplam_soru_sayisi_en">Total number of questions in the category: </string>
+    <string name="kategori_de">Kategorie</string>
+    <string name="kategori_tr">Kategori</string>
+    <string name="kategori_en">Category</string>
+    <string name="eski_cozdugun_soruları_gozden_gecir_de">Überprüfen Sie Ihre alten gelösten Fragen</string>
+    <string name="eski_cozdugun_soruları_gozden_gecir_tr">Eski Çözdüğün Soruları Gözden Geçir</string>
+    <string name="eski_cozdugun_soruları_gozden_gecir_en">Review Your Old Solved Questions</string>
+    <string name="sifre_de">Password</string>
+    <string name="sifre_tr">Şifre</string>
+    <string name="sifre_en">Password</string>
+    <string name="beni_hatirla_de">Erinnere dich an mich</string>
+    <string name="beni_hatirla_tr">Beni Hatırla</string>
+    <string name="beni_hatirla_en">Remember me</string>
+    <string name="sifremi_unuttum_de">Ich habe mein Passwort vergessen!</string>
+    <string name="sifremi_unuttum_tr">Şifremi unuttum!</string>giris_de
+    <string name="sifremi_unuttum_en">I forgot my password!</string>
+    <string name="giris_de">Anmelden</string>
+    <string name="giris_tr">Giriş Yap</string>
+    <string name="giris_en">Login</string>
+    <string name="profil_de">Profil</string>
+    <string name="profil_tr">Profil</string>
+    <string name="profil_en">Profile</string>
+    <string name="bilgilerim_de">Meine Informationen</string>
+    <string name="bilgilerim_tr">Bilgilerim</string>
+    <string name="bilgilerim_en">My information</string>
+    <string name="istatistikler_de">Statistik</string>
+    <string name="istatistikler_tr">İstatistikler</string>
+    <string name="istatistikler_en">Statistics</string>
+    <string name="kendinizi_deneyin_de">Probieren Sie es aus!</string>
+    <string name="kendinizi_deneyin_tr">Kendinizi Deneyin!</string>
+    <string name="kendinizi_deneyin_en">Try Yourself!</string>
+    <string name="kategoriler_de">Kategorien</string>
+    <string name="kategoriler_tr">Kategoriler</string>
+    <string name="kategoriler_en">categories</string>
+    <string name="letisim_de">Kommunikation</string>
+    <string name="letisim_tr">İletişim</string>
+    <string name="letisim_en">Contact</string>
+    <string name="cikis_yap_de">Abmelden</string>
+    <string name="cikis_yap_tr">Çıkış Yap</string>
+    <string name="cikis_yap_en">Log out</string>
+    <string name="baslangic_tarihi_de">Startdatum: </string>
+    <string name="baslangic_tarihi_tr">Başlangıç Tarihi: </string>
+    <string name="baslangic_tarihi_en">Starting date: </string>
+    <string name="bitis_tarihi_de">Enddatum: </string>
+    <string name="bitis_tarihi_tr">Bitiş Tarihi: </string>
+    <string name="bitis_tarihi_en">End Date: </string>
+    <string name="cozulen_soru_de">Gelöste Frage:</string>
+    <string name="cozulen_soru_tr">Çözülen Soru:</string>
+    <string name="cozulen_soru_en">Solved Questions:</string>
+    <string name="sonuclar_de">Ergebnisse</string>
+    <string name="sonuclar_tr">Sonuçlar</string>
+    <string name="sonuclar_en">results</string>
+    <string name="sifreniz_uyusmuyor_de">Ihr Passwort stimmt nicht überein!</string>
+    <string name="sifreniz_uyusmuyor_tr">Şifreniz uyuşmuyor!</string>
+    <string name="sifreniz_uyusmuyor_en">Your password does not match!</string>
+    <string name="hesabiniz_henuz_aktif_degil_de">Ihr Konto ist noch nicht aktiv!</string>
+    <string name="hesabiniz_henuz_aktif_degil_tr">Hesabınız henüz aktif değil!</string>
+    <string name="hesabiniz_henuz_aktif_degil_en">Your account is not active yet!</string>
+    <string name="sifreniz_basarili_degist_de">Ihr Passwort hat sich erfolgreich geändert!</string>
+    <string name="sifreniz_basarili_degisti_tr">Şifreniz başarılı bir şekilde değişti!</string>
+    <string name="sifreniz_basarili_degisti_en">Your password has changed successfully!</string>
+    <string name="lutfen_yeni_sifre_belirleyin_de">Bitte setzen Sie ein neues Passwort!</string>
+    <string name="lutfen_yeni_sifre_belirleyin_tr">Lütfen yeni bir şifre belirleyiniz!</string>
+    <string name="lutfen_yeni_sifre_belirleyin_en">Please set a new password!</string>
+    <string name="yeni_sifreler_uyusmuyor_de">Ihre neuen Passwörter stimmen nicht überein. Bitte überprüfen Sie es und versuchen Sie es erneut!</string>
+    <string name="yeni_sifreler_uyusmuyor_tr">Yeni şifreleriniz uyuşmuyor lütfen kontrol edip tekrar deneyiniz!</string>
+    <string name="yeni_sifreler_uyusmuyor_en">Your new passwords do not match, please check and try again!</string>
+    <string name="lutfen_eski_sifrenizi_girin_de">Bitte geben Sie Ihr altes Passwort ein!</string>
+    <string name="lutfen_eski_sifrenizi_girin_tr">Lütfen eski şifrenizi giriniz!</string>
+    <string name="lutfen_eski_sifrenizi_girin_en">Please enter your old password!</string>
+    <string name="lutfen_eski_sifrenizi_dogru_girin_de">Bitte geben Sie Ihr altes Passwort korrekt ein!</string>
+    <string name="lutfen_eski_sifrenizi_dogru_girin_tr">Lütfen eski şifrenizi doğru giriniz!</string>
+    <string name="lutfen_eski_sifrenizi_dogru_girin_en">Please enter your old password correctly!</string>
+    <string name="istatistikler_sifirlandi_de">Ihre Statistiken wurden zurückgesetzt!</string>
+    <string name="istatistikler_sifirlandi_tr">İstatistikleriniz Sıfırlandı!</string>
+    <string name="istatistikler_sifirlandi_en">Your statistics have been reset!</string>
+    <string name="bu_kategorideki_butun_sorulari_cozdunuz_de">Sie haben alle Fragen in dieser Kategorie gelöst!</string>
+    <string name="bu_kategorideki_butun_sorulari_cozdunuz_tr">Bu Kategorideki Bütün Soruları çözdünüz!</string>
+    <string name="bu_kategorideki_butun_sorulari_cozdunuz_en">You have solved all the Questions in this Category!</string>
+    <string name="cozulmus_soru_bulunmamakta_de">Es gibt keine Fragen!</string>
+    <string name="cozulmus_soru_bulunmamakta_tr">Çözülmüş soru bulunmamakta!</string>
+    <string name="cozulmus_soru_bulunmamakta_en">There are no questions!</string>
+    <string name="yanlis_soru_bulunmamakta_de">Es gibt keine falschen Fragen!</string>
+    <string name="yanlis_soru_bulunmamakta_tr">Yanlış soru bulunmamakta!</string>
+    <string name="yanlis_soru_bulunmamakta_en">There are no wrong questions!</string>
+    <string name="gozden_gecirilecek_soru_bulunmamakta_de">Keine Fragen zu überprüfen!</string>
+    <string name="gozden_gecirilecek_soru_bulunmamakta_tr">Gözden geçirilecek soru bulunamadı!</string>
+    <string name="gozden_gecirilecek_soru_bulunmamakta_en">No questions to review!</string>
+    <string name="tebrikler_soruyu_dogru_cozdunuz_tr">Tebrikler soruyu doğru çözdünüz!</string>
+    <string name="tebrikler_soruyu_dogru_cozdunuz_de">Sie haben die Frage richtig gelöst!</string>
+    <string name="tebrikler_soruyu_dogru_cozdunuz_en">You solved the question correctly!</string>
+    <string name="maalesef_yanlis_cozdunuz_tr">Maalesef soruyu yanlış çözdünüz!</string>
+    <string name="maalesef_yanlis_cozdunuz_de">Sie haben die Frage falsch gelöst!</string>
+    <string name="maalesef_yanlis_cozdunuz_en">You solved the question incorrectly!</string>
+    <string name="title_activity_isaretli_sorular">IsaretliSorular</string>
+
+    <string name="title_isaretli_sorular_de">Markierte Fragen</string>
+    <string name="title_isaretli_sorular_tr">İşaretli Sorular</string>
+    <string name="title_isaretli_sorular_en">Marked Questions</string>
+    <string name="daha_once_isaretlediginiz_sorular_de">Bitte klicken Sie auf die Schaltfläche unten, um die Fragen zu sehen, die Sie bereits markiert haben!</string>
+    <string name="daha_once_isaretlediginiz_sorular_tr">Daha Önceden işaretlemiş olduğunuz soruları görmek için lütfen aşağıdaki butona tıklayınız!</string>
+    <string name="daha_once_isaretlediginiz_sorular_en">Please click the button below to see the questions you have already marked!</string>
+
+    <string name="isaretli_soru_yok_de">keine Frage markiert</string>
+    <string name="isaretli_soru_yok_tr">İşaretlenmiş soru yok!</string>
+    <string name="isaretli_soru_yok_en">No question marked</string>
+
+    <string name="isarettext_tr">Soruyu İşaretle:</string>
+    <string name="isarettext_de">Frage markieren:</string>
+    <string name="isarettext_en">Mark Question:</string>
+
+    <string name="puanliksoru_tr"> Puanlık Soru</string>
+    <string name="puanliksoru_de"> Punkt Frage</string>
+    <string name="puanliksoru_en"> Point Question</string>
+
+    <string name="puanliksorular_tr"> Puanlık Sorular</string>
+    <string name="puanliksorular_de"> Punkt Fragen</string>
+    <string name="puanliksorular_en"> Point Questions</string>
+
+    <string name="kaldiniz_tr">Kaldınız</string>
+    <string name="kaldiniz_de">Erfolglos</string>
+    <string name="kaldiniz_en">Unsuccessful</string>
+
+    <string name="gectiniz_tr">Geçtiniz</string>
+    <string name="gectiniz_de">Erfolgreich</string>
+    <string name="gectiniz_en">Successful</string>
+
+    <string name="detayli_istatistik_tr">detaylı istatistik</string>
+    <string name="detayli_istatistik_de">detaillierte Statistiken</string>
+    <string name="detayli_istatistik_en">detailed statistics</string>
+
+    <string name="butun_sorulari_cozmediniz_tr">Bütün Soruları Çözmediniz</string>
+    <string name="butun_sorulari_cozmediniz_de">Sie haben nicht alle Fragen gelöst</string>
+    <string name="butun_sorulari_cozmediniz_en">You Didnt Solve All Questions</string>
+
+    <string name="eski_sifreniz_tr">Eski şifreniz:</string>
+    <string name="eski_sifreniz_de">Ihr altes Passwort:</string>
+    <string name="eski_sifreniz_en">Your old password:</string>
+
+    <string name="yeni_sifreniz_tr">Yeni Şifreniz:</string>
+    <string name="yeni_sifreniz_de">Dein neues Passwort:</string>
+    <string name="yeni_sifreniz_en">Your new password:</string>
+
+    <string name="kaydet_tr">Kaydet</string>
+    <string name="kaydet_de">Sparen</string>
+    <string name="kaydet_en">Save</string>
+
+    <string name="cikmak_istediginize_emin_misiniz_tr">Çıkmak istediğinize emin misiniz?</string>
+    <string name="cikmak_istediginize_emin_misiniz_de">Sind Sie sicher, dass Sie aufhören wollen?</string>
+    <string name="cikmak_istediginize_emin_misiniz_en">Are you sure you want to quit?</string>
+
+    <string name="evet_tr">Evet</string>
+    <string name="evet_de">Ja</string>
+    <string name="evet_en">Yes</string>
+
+    <string name="hayir_tr">Hayır</string>
+    <string name="hayir_de">Nein</string>
+    <string name="hayir_en">No</string>
+
+    <string name="puan_kalma_tr">Puan yanlış yaptığınızdan dolayı kaldınız!</string>
+    <string name="puan_kalma_en">You are unsuccessfull because of</string>
+    <string name="puan_kalma_1_en">points fail!</string>
+    <string name="puan_kalma_1_de">Punkte fehler!</string>
+    <string name="puan_kalma_de">Erfolglos wegen der</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".KategoriDetay"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/prgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/siyah_transp_buton"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:elevation="30dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/beyaz_kutucuk"
+        android:padding="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="#0B6623" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="#ff0000" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+        android:id="@+id/gecme_durumu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/gecme_durumu_puan_y"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="fsdfs"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/detayli_istatistik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/siyah_kutucuk"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <Button
+            android:id="@+id/button5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:text="@string/istatistikleri_sifirla_de"
+            android:background="@drawable/ic_loop_black_24dp"
+            android:textColor="#ffffff"
+            />
+            <TextView
+                android:id="@+id/istatistikleri_sifirla_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+              />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/siyah_kutucuk"
+        android:textColor="#ffffff"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="25dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/siyah_kutucuk"
+        android:textColor="#ffffff"
+        android:layout_marginHorizontal="25dp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/siyah_kutucuk"
+        android:textColor="#ffffff"
+        android:layout_margin="25dp"/>
+
+
+</LinearLayout>
